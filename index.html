@@ -22,9 +22,9 @@
   <body>
     <div class="page">
       <header class="header">
-        <nav class="nav">
+        <nav class="nav__header">
           <img
-            src="../images/logo_coffeeshop_dark.svg"
+            src="/images/logo_coffeeshop_dark.svg"
             alt="Triple Peaks Coffee Shop Logo"
             class="nav__logo"
           />
@@ -52,7 +52,7 @@
           &nbsp; the cozy vibes to help you get creative
         </p>
         <img
-          src="../images/inside_coffee_shop.png"
+          src="/images/inside_coffee_shop.png"
           alt="Illustration 'Inside the coffee shop'"
           class="header__image"
         />
@@ -117,6 +117,7 @@
                   class="form__input"
                   placeholder="Name Surname"
                   id="name"
+                  required
                 />
               </label>
               <label for="numberofguests" class="form__label">
@@ -126,6 +127,7 @@
                   class="form__input"
                   placeholder="1-8"
                   id="numberofguests"
+                  required
                 />
               </label>
               <label for="dateandtime" class="form__label">
@@ -134,6 +136,7 @@
                   type="datetime-local"
                   class="form__input"
                   id="dateandtime"
+                  required
                 />
               </label>
               <label for="email" class="form__label">
@@ -143,12 +146,18 @@
                   class="form__input"
                   placeholder="email@email.com"
                   id="email"
+                  required
                 />
               </label>
             </fieldset>
             <button class="form__button">Book a table</button>
             <label for="checkbox" class="form__label form__label_type_checkbox">
-              <input type="checkbox" class="form__checkbox" id="checkbox" />
+              <input
+                type="checkbox"
+                class="form__checkbox"
+                id="checkbox"
+                required
+              />
               I agree with the terms of use
             </label>
           </form>
@@ -248,7 +257,7 @@
       <footer class="footer">
         <div class="footer__content">
           <img
-            src="../images/logo_coffeeshop_light.svg"
+            src="/images/logo_coffeeshop_light.svg"
             alt="Coffeeshop Logo White"
             class="footer__logo"
           />
@@ -258,7 +267,7 @@
               <li class="footer__list-item">
                 <a href="#" class="footer__social-link">
                   <img
-                    src="../images/facebook_white.svg"
+                    src="/images/facebook_white.svg"
                     alt="Facebook logo"
                     class="footer__social-icon"
                   />
@@ -268,7 +277,7 @@
               <li class="footer__list-item">
                 <a href="#" class="footer__social-link">
                   <img
-                    src="../images/instagram_white.svg"
+                    src="/images/instagram_white.svg"
                     alt="Instagram logo"
                     class="footer__social-icon"
                   />
